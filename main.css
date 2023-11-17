@@ -11,8 +11,13 @@
 	You can modify everything after this point.
 */
 
-a:link, a:visited {
+a:link {
 	color: blue;
+	text-decoration: none;
+	font-style: italic;
+}
+a:visited {
+	color: purple;
 }
 
 a:focus, a:hover {
@@ -25,45 +30,51 @@ a:focus, a:hover {
 
 body {
 	font-kerning: normal;
+	line-height: 145%;
 	
 }
 
 code {
-	
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 h1, h2, h3 {
-
+	text-align: left;
+	font-size: 22px;
 }
 
 h1 {
-
+	font-family: Helvetica, sans-serif ;
 }
 
 h2 {
-
+	font-family: Helvetica, sans-serif ;
 }
 
 h3 {
-	
+	font-family: Helvetica, sans-serif ;
 }
 
 header {
-	
+	text-align: center;
 }
 
 main {
-
+	max-width: 65ch;
 }
 
 p {
-
+	text-align: center;
+	text-indent: 20px;
+	font-size: 20px;
 }
 
 #intro {
-
+	font-family: 'Franklin Gothic', sans-serif;
 }
 
 #how-does-it-work, #influence, #joke {
-
+	font-family: Helvetica, sans-serif ;
 }
