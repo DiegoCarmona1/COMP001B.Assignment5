@@ -24,7 +24,8 @@ a:focus, a:hover {
 }
 
 body {
-
+	font-kerning: normal;
+	
 }
 
 code {
