@@ -41,7 +41,7 @@ code {
 }
 
 h1, h2, h3 {
-	text-align: left;
+	text-align: center;
 	font-size: 22px;
 }
 
@@ -63,10 +63,11 @@ header {
 
 main {
 	max-width: 65ch;
+	margin: auto;
 }
 
 p {
-	text-align: center;
+	text-align: left;
 	text-indent: 20px;
 	font-size: 20px;
 }
